@@ -18,7 +18,7 @@ export default function Tecnologias() {
   return (
     <section className="bg-black py-16 text-white text-center mx-4">
       <h2 className="text-3xl font-bold text-cyan-400 mb-6">Tecnologías que manejo</h2>
-      <div className="flex flex-wrap justify-center gap-6">
+      <div data-aos="zoom-in-up" className="flex flex-wrap justify-center gap-6">
         {tecnologias.map((tech) => (
           <div
             key={tech.id}

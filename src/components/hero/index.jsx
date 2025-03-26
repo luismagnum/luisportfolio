@@ -5,7 +5,7 @@ import Image from "next/image";
 export default function Hero() {
   return (
     <section className="relative flex flex-col-reverse md:flex-row items-center justify-between px-6 md:px-16 lg:px-24 py-16 md:py-24 bg-[#0d0d0d] text-[#007BFF]">
-      <div className="text-center md:text-left">
+      <div data-aos="fade-left" className="text-center md:text-left">
         <h1 className="text-4xl md:text-6xl font-bold">Luis Enrique Díaz</h1>
         <h2 className="text-2xl md:text-3xl font-semibold mt-2">
           Desarrollador Web Frontend

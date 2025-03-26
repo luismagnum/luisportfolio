@@ -11,7 +11,7 @@ export default function Simulacion() {
 
   return (
     <section className='mt-0 mx-4'>
-  <div className='grid place-items-center justify-center gap-1 pt-0'>
+  <div data-aos="fade-right" className='grid place-items-center justify-center gap-1 pt-0'>
     <h2 className='text-center text-cyan-400 text-3xl font-bold py-2 mt-24'>
       Simulacion de Proyecto
     </h2>
