@@ -56,7 +56,7 @@ const proyectos = [
 export default function Proyectos() {
   return (
     <section className="bg-black py-16 text-white text-center">
-      <h2 className="text-3xl font-bold text-cyan-400 mb-8">Mis Proyectos</h2>
+      <h2 className="text-3xl font-bold text-cyan-400 mb-8">Mis ultimos Proyectos</h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 px-6 md:px-16">
         {proyectos.map((proyecto) => (
           <div
